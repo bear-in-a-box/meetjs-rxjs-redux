@@ -18,6 +18,7 @@ export class UserService extends Service {
   }
 
   changeUserLanguage(language) {
+    console.log("RxJS: Changing user language to", language);
     this.data$.next({ ...this.currentValue, language });
   }
 }
