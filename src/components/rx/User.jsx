@@ -12,12 +12,6 @@ function User() {
     userService.current.currentValue.login
   );
 
-  // const [login, setLogin] = useState(userService.current.currentValue.login);
-  // useEffect(() => {
-  //   const sub = userService.current.login$.subscribe(setLogin);
-  //   return () => sub.unsubscribe();
-  // }, []);
-
   return (
     <div>
       <h4>User</h4>

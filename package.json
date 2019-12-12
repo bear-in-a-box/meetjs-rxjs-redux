@@ -1,4 +1,9 @@
 {
+  "author": {
+    "email": "wojtal.pl@gmail.com",
+    "name": "Wojciech Tałałaj"
+  },
+  "license": "MIT",
   "name": "redux-rxjs",
   "version": "0.1.0",
   "private": true,
